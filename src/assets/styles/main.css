@@ -1,0 +1,126 @@
+:root {
+  --color-black: #111;
+  --color-dark-gray: #444;
+  --color-gray: #aaa;
+  --color-light-gray: #ddd;
+  --color-off-white: #f5f5f5;
+  --color-white: #fff;
+  /*--color-destructive: hsl(0 100% 35% / 1);*/
+  --color-destructive: oklch(0.54 0.23 29.57);
+  /*--color-destructive-hover: #f00;*/
+  --color-destructive-hover: oklch(0.59 0.25 29.55);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+
+html {
+  --text: var(--color-black);
+  --bg: var(--color-off-white);
+  --text-shadow: rgba(0, 0, 0, .3);
+  --results-background: var(--color-light-gray);
+  --results-active: var(--color-off-white);
+  --results-hover: var(--color-off-white);
+  background-color: var(--bg);
+  font-size: 16px;
+
+  @media print {
+    background-color: var(--color-white);
+  }
+}
+
+body {
+  line-height: 1.4;
+  color: var(--color-black);
+  font-family: ui-sans-serif, system-ui, -system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji";
+  font-size: 1rem;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media print {
+    --color-black: #000;
+  }
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+  margin: 0 auto;
+}
+
+img[width] {
+  inline-size: auto;
+}
+
+img[width][height] {
+  block-size: auto;
+}
+
+img[src$=".svg"] {
+  inline-size: 100%;
+  block-size: auto;
+  max-inline-size: none;
+}
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  block-size: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  inline-size: 1px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -.0125em;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.125;
+}
+
+h1,
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: var(--color-black);
+  text-decoration: none;
+  border-block-end: 2px dotted;
+  transition: border-block-end-color .2s;
+}
+
+a:hover,
+a:focus {
+  border-block-end-color: transparent;
+}
+
+a:focus {
+  outline: 3px dashed;
+}
