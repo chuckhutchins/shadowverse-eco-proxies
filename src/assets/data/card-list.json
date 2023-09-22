@@ -70,9 +70,9 @@
       ]
     },
     {
-      "index": 4,
+      "index": 5,
       "set": "BP01",
-      "cardNumber": 4,
+      "cardNumber": 5,
       "name": "Rhinoceroach",
       "class": "Forestcraft",
       "type": "Follower",
@@ -83,6 +83,21 @@
       "defense": 1,
       "text": [
         "On Evolve: Choose one of the following effects. (1) Give this follower Storm. (2) Select an enemy follower on the field and deal it X damage. X equals this follower's attack."
+      ]
+    },
+    {
+      "index": 8,
+      "set": "BP01",
+      "cardNumber": 8,
+      "name": "Homecoming",
+      "class": "Forestcraft",
+      "type": "Spell",
+      "trait": ["Elf"],
+      "rarity": "G",
+      "cost": 3,
+      "lengthy": true,
+      "text": [
+        "Select an enemy follower on the field. Its controller puts it on the top or bottom of its owner's deck. Combo (5): Each opponent puts each follower from their field on the top or bottom of its owner's deck instead. (The controllers determine the placement. Tokens put into a player's deck are removed from the game.)"
       ]
     },
     {
@@ -229,6 +244,22 @@
       "defense": 2,
       "text": [
         "Fanfare: Search your deck for a Swordcraft follower, reveal it, and add it to your hand."
+      ]
+    },
+    {
+      "index": 41,
+      "set": "BP01",
+      "cardNumber": 41,
+      "name": "Arthurian Light",
+      "class": "Swordcraft",
+      "type": "Amulet",
+      "trait": ["Commander"],
+      "rarity": "S",
+      "cost": 2,
+      "text": [
+        "Action 1, Engage: Summon a Knight token and give it Storm.",
+        "Action 2, Engage: Select an enemy follower on the field and engage it.",
+        "Action 3, Engage: Draw a card."
       ]
     },
     {
@@ -695,6 +726,311 @@
       "text": [
         "When this is card is discarded, draw a card.",
         "Draw a card."
+      ]
+    },
+    {
+      "index": 1001,
+      "set": "BP01",
+      "cardNumber": 1,
+      "name": "Thorn Burst",
+      "class": "Forestcraft",
+      "type": "Spell",
+      "trait": ["Verdant"],
+      "rarity": "T",
+      "cost": 2,
+      "text": [
+        "Select an enemy leader or enemy follower on the field. Deal it 3 damage and draw a card."
+      ]
+    },
+    {
+      "index": 1002,
+      "set": "BP01",
+      "cardNumber": 2,
+      "name": "Fairy Wisp",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "trait": ["Pixie"],
+      "rarity": "T",
+      "cost": 0,
+      "attack": 1,
+      "defense": 1,
+      "text": []
+    },
+    {
+      "index": 1003,
+      "set": "BP01",
+      "cardNumber": 3,
+      "name": "Fairy",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "trait": ["Pixie"],
+      "rarity": "T",
+      "cost": 1,
+      "attack": 1,
+      "defense": 1,
+      "text": []
+    },
+    {
+      "index": 1004,
+      "set": "BP01",
+      "cardNumber": 4,
+      "name": "Otohime's Bodyguard",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Officer"],
+      "rarity": "T",
+      "cost": 1,
+      "attack": 1,
+      "defense": 2,
+      "text": [
+        "Ward."
+      ]
+    },
+    {
+      "index": 1005,
+      "set": "BP01",
+      "cardNumber": 5,
+      "name": "Knight",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Officer"],
+      "rarity": "T",
+      "cost": 1,
+      "attack": 1,
+      "defense": 1,
+      "text": []
+    },
+    {
+      "index": 1006,
+      "set": "BP01",
+      "cardNumber": 6,
+      "name": "Viking",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Thief"],
+      "rarity": "T",
+      "cost": 3,
+      "attack": 3,
+      "defense": 2,
+      "text": [
+        "Storm."
+      ]
+    },
+    {
+      "index": 1007,
+      "set": "BP01",
+      "cardNumber": 7,
+      "name": "Steelclad Knight",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Officer"],
+      "rarity": "T",
+      "cost": 2,
+      "attack": 2,
+      "defense": 2,
+      "text": []
+    },
+    {
+      "index": 1008,
+      "set": "BP01",
+      "cardNumber": 8,
+      "name": "Strikeform Golem",
+      "class": "Runecraft",
+      "type": "Follower",
+      "trait": ["Golem"],
+      "rarity": "T",
+      "cost": 2,
+      "attack": 3,
+      "defense": 2,
+      "text": [
+        "Rush."
+      ]
+    },
+    {
+      "index": 1009,
+      "set": "BP01",
+      "cardNumber": 9,
+      "name": "Guardform Golem",
+      "class": "Runecraft",
+      "type": "Follower",
+      "trait": ["Golem"],
+      "rarity": "T",
+      "cost": 2,
+      "attack": 2,
+      "defense": 3,
+      "text": [
+        "Ward."
+      ]
+    },
+    {
+      "index": 1010,
+      "set": "BP01",
+      "cardNumber": 10,
+      "name": "Magic Sediment",
+      "class": "Runecraft",
+      "type": "Amulet",
+      "trait": ["Earth Sigil"],
+      "rarity": "T",
+      "cost": 1,
+      "lengthy": true,
+      "text": [
+        "Stack. (Amulets with Stack are put onto the field with 1 Stack counter and have the following abilities.",
+        "When this card would leave the field, remove 1 Stack counter from it instead. When this card's Stack count reaches 0, destroy it.",
+        "Action Engage: Select another amulet with Stack on your field and transfer all this card's Stack counters to that card."
+      ]
+    },
+    {
+      "index": 1011,
+      "set": "BP01",
+      "cardNumber": 11,
+      "name": "Dragon",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "trait": ["Wyrmkim"],
+      "rarity": "T",
+      "cost": 4,
+      "attack": 5,
+      "defense": 5,
+      "text": []
+    },
+    {
+      "index": 1012,
+      "set": "BP01",
+      "cardNumber": 12,
+      "name": "Mimi",
+      "class": "Abysscraft",
+      "type": "Spell",
+      "trait": ["Demon"],
+      "rarity": "T",
+      "cost": 0,
+      "text": [
+        "Select an enemy follower on the field and deal it 2 damage."
+      ]
+    },
+    {
+      "index": 1013,
+      "set": "BP01",
+      "cardNumber": 13,
+      "name": "Coco",
+      "class": "Abysscraft",
+      "type": "Spell",
+      "trait": ["Demon"],
+      "rarity": "T",
+      "cost": 0,
+      "text": [
+        "Select a follower on your field and give it +2 Defense."
+      ]
+    },
+    {
+      "index": 1014,
+      "set": "BP01",
+      "cardNumber": 14,
+      "name": "Ghost",
+      "class": "Abysscraft",
+      "type": "Follower",
+      "trait": ["Departed"],
+      "rarity": "T",
+      "cost": 1,
+      "attack": 1,
+      "defense": 1,
+      "text": [
+        "Storm.",
+        "At the start of your end phase, banish this card."
+      ]
+    },
+    {
+      "index": 1015,
+      "set": "BP01",
+      "cardNumber": 15,
+      "name": "Bat",
+      "class": "Abysscraft",
+      "type": "Follower",
+      "trait": ["Vampire"],
+      "rarity": "T",
+      "cost": 1,
+      "attack": 1,
+      "defense": 1,
+      "text": []
+    },
+    {
+      "index": 1016,
+      "set": "BP01",
+      "cardNumber": 16,
+      "name": "Holy Falcon",
+      "class": "Havencraft",
+      "type": "Follower",
+      "trait": ["Avian"],
+      "rarity": "T",
+      "cost": 3,
+      "attack": 2,
+      "defense": 2,
+      "text": [
+        "Storm."
+      ]
+    },
+    {
+      "index": 1017,
+      "set": "BP01",
+      "cardNumber": 17,
+      "name": "Holy Tiger",
+      "class": "Havencraft",
+      "type": "Follower",
+      "trait": ["Beast"],
+      "rarity": "T",
+      "cost": 4,
+      "attack": 4,
+      "defense": 4,
+      "text": [
+        "Rush."
+      ]
+    },
+    {
+      "index": 30001,
+      "set": "SD03",
+      "cardNumber": 1,
+      "name": "Mythril Golem",
+      "class": "Runecraft",
+      "type": "Follower",
+      "trait": ["Golem"],
+      "rarity": "L",
+      "cost": 6,
+      "attack": 5,
+      "defense": 6,
+      "text": [
+        "Fanfare: Deal 3 damage to each enemy follower on the field. Spellchain (7): Deal 5 damage instead. SC (15): Deal 5 damage to each enemy leader."
+      ]
+    },
+    {
+      "index": 30007,
+      "set": "SD03",
+      "cardNumber": 7,
+      "name": "Lightning Shooter",
+      "class": "Runecraft",
+      "type": "Follower",
+      "trait": ["Mage"],
+      "rarity": "B",
+      "cost": 4,
+      "attack": 3,
+      "defense": 3,
+      "text": [
+        "Fanfare: Select an enemy follower on the field and deal it 2 damage. Spellchain (5): Deal 4 damage instead. SC (10): Deal 2 damage to that follower's leader."
+      ]
+    },
+    {
+      "index": 60001,
+      "set": "SD06",
+      "cardNumber": 1,
+      "name": "Skullfane",
+      "class": "Havencraft",
+      "type": "Follower",
+      "trait": ["Zealot", "Eidolon"],
+      "rarity": "L",
+      "cost": 7,
+      "attack": 6,
+      "defense": 6,
+      "text": [
+        "Fanfare: Look at the top 4 cards of your deck. You may reveal an amulet from among them and put it onto your field. Put the remaining cards into your cemetery.",
+        "Whenever an amulet leaves your field, deal 2 damage to each enemy leader and enemy follower on the field."
       ]
     }
   ]
