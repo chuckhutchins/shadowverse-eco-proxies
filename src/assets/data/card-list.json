@@ -1,0 +1,701 @@
+{
+  "cards": [
+    {
+      "index": 1,
+      "set": "BP01",
+      "cardNumber": 1,
+      "name": "Rose Queen",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "trait": ["Verdant"],
+      "rarity": "L",
+      "cost": 8,
+      "attack": 7,
+      "defense": 7,
+      "text": [
+        "Fanfare: Select any number of Pixie followers in your EX area and transform them into Thorn Burst tokens.",
+        "Action Engage: Recover X play points. X equals the number of Thorn Burst tokens in your EX area."
+      ]
+    },
+    {
+      "index": 2,
+      "set": "BP01",
+      "cardNumber": 2,
+      "name": "Ancient Elf",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "trait": ["Elf"],
+      "rarity": "L",
+      "cost": 2,
+      "attack": 2,
+      "defense": 2,
+      "text": [
+        "Evolve 1: Evolve this follower.",
+        "Fanfare: Return another card on your field to its owner's hand: Give this follower [attack]+1/[defense]+1."
+      ]
+    },
+    {
+      "index": 3,
+      "set": "BP01",
+      "cardNumber": 3,
+      "name": "Ancient Elf",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Elf"],
+      "rarity": "L",
+      "attack": 3,
+      "defense": 3,
+      "text": [
+        "Ward.",
+        "On Evolve, return another card on your field to its owner's hand: Give this follower +1/+1."
+      ]
+    },
+    {
+      "index": 4,
+      "set": "BP01",
+      "cardNumber": 4,
+      "name": "Rhinoceroach",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "trait": ["Insect"],
+      "rarity": "G",
+      "cost": 2,
+      "attack": 1,
+      "defense": 1,
+      "text": [
+        "Evolve 0: Evolve this follower.",
+        "Rush.",
+        "Fanfare: Give this follower +X Attack. X equals the number of cards you've played this turn, excluding this card."
+      ]
+    },
+    {
+      "index": 4,
+      "set": "BP01",
+      "cardNumber": 4,
+      "name": "Rhinoceroach",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Insect"],
+      "rarity": "G",
+      "attack": 1,
+      "defense": 1,
+      "text": [
+        "On Evolve: Choose one of the following effects. (1) Give this follower Storm. (2) Select an enemy follower on the field and deal it X damage. X equals this follower's attack."
+      ]
+    },
+    {
+      "index": 26,
+      "set": "BP01",
+      "cardNumber": 26,
+      "name": "Sea Queen Otohime",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Commander", "Princess"],
+      "rarity": "L",
+      "cost": 4,
+      "attack": 3,
+      "defense": 4,
+      "text": [
+        "Evolve 2: Evolve this follower.",
+        "Fanfare: Summon and Otohime's Bodyguard token."
+      ]
+    },
+    {
+      "index": 27,
+      "set": "BP01",
+      "cardNumber": 27,
+      "name": "Sea Queen Otohime",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Commander", "Princess"],
+      "rarity": "L",
+      "attack": 4,
+      "defense": 5,
+      "text": [
+        "On Evolve: Summon 3 Otohime's Bodyguard tokens. If your field becomes full from this effect, put any remaining tokens into your EX area."
+      ]
+    },
+    {
+      "index": 28,
+      "set": "BP01",
+      "cardNumber": 28,
+      "name": "Aurelia, Regal Saber",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Commander", "Princess"],
+      "rarity": "L",
+      "cost": 5,
+      "attack": 4,
+      "defense": 6,
+      "text": [
+        "Rush. Assail. Ward.",
+        "Fanfare: Select an enemy leader. If there are at least 3 cards on their field, give this follower +2/+2 and Aura."
+      ]
+    },
+    {
+      "index": 29,
+      "set": "BP01",
+      "cardNumber": 29,
+      "name": "Shadowed Assassin",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Assassin"],
+      "rarity": "G",
+      "cost": 4,
+      "attack": 4,
+      "defense": 4,
+      "text": [
+        "Evolve 2: Evolve this follower.",
+        "Fanfare: Select an enemy follower on the field and engage it."
+      ]
+    },
+    {
+      "index": 30,
+      "set": "BP01",
+      "cardNumber": 30,
+      "name": "Shadowed Assassin",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Assassin"],
+      "rarity": "G",
+      "attack": 5,
+      "defense": 5,
+      "text": [
+        "On Evolve: Select an engaged enemy follower and destroy it."
+      ]
+    },
+    {
+      "index": 33,
+      "set": "BP01",
+      "cardNumber": 33,
+      "name": "Royal Banner",
+      "class": "Swordcraft",
+      "type": "Amulet",
+      "trait": ["Commander"],
+      "rarity": "G",
+      "cost": 4,
+      "text": [
+        "Fanfare: Give each Swordcraft follower on your field +1/+1.",
+        "Whenever a Swordcraft follower is put onto your field, give it +1/+1."
+      ]
+    },
+    {
+      "index": 34,
+      "set": "BP01",
+      "cardNumber": 34,
+      "name": "Maid Leader",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Officer", "Maid"],
+      "rarity": "S",
+      "cost": 1,
+      "attack": 1,
+      "defense": 1,
+      "text": [
+        "Evolve 2: Evolve this follower."
+      ]
+    },
+    {
+      "index": 35,
+      "set": "BP01",
+      "cardNumber": 35,
+      "name": "Maid Leader",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Officer", "Maid"],
+      "rarity": "S",
+      "attack": 2,
+      "defense": 2,
+      "text": [
+        "On Evolve: Search your deck for a follower with Evolve, reveal it, and add it to your hand."
+      ]
+    },
+    {
+      "index": 36,
+      "set": "BP01",
+      "cardNumber": 36,
+      "name": "Gemstaff Commander",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Commander"],
+      "rarity": "S",
+      "cost": 3,
+      "attack": 3,
+      "defense": 2,
+      "text": [
+        "Fanfare: Search your deck for a Swordcraft follower, reveal it, and add it to your hand."
+      ]
+    },
+    {
+      "index": 51,
+      "set": "BP01",
+      "cardNumber": 51,
+      "name": "Arch Summoner Erasmus",
+      "class": "Runecraft",
+      "type": "Follower",
+      "trait": ["Mage"],
+      "rarity": "L",
+      "cost": 7,
+      "attack": 6,
+      "defense": 8,
+      "text": [
+        "Fanfare Earth Rite: Select an enemy follower on the field. Deal 6 damage to it and 2 damage to its leader.",
+        "Action Engage, Earth Rite: Select an enemy follower on the field. Deal 6 damage to it and 2 damage to its leader."
+      ]
+    },
+    {
+      "index": 52,
+      "set": "BP01",
+      "cardNumber": 52,
+      "name": "Merlin",
+      "class": "Runecraft",
+      "type": "Follower",
+      "trait": ["Mage"],
+      "rarity": "L",
+      "cost": 3,
+      "attack": 3,
+      "defense": 2,
+      "text": [
+        "Evolve 2: Evolve this follower.",
+        "Fanfare: Search your deck for a spell, reveal it, and add it to your hand."
+      ]
+    },
+    {
+      "index": 53,
+      "set": "BP01",
+      "cardNumber": 53,
+      "name": "Merlin",
+      "class": "Runecraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Mage"],
+      "rarity": "L",
+      "attack": 4,
+      "defense": 3,
+      "text": [
+        "On Evolve: Select a spell that costs 3 play points or less in your cemetery and play it for 0 play points."
+      ]
+    },
+    {
+      "index": 54,
+      "set": "BP01",
+      "cardNumber": 54,
+      "name": "Ancient Alchemist",
+      "class": "Runecraft",
+      "type": "Follower",
+      "trait": ["Alchemist"],
+      "rarity": "G",
+      "cost": 3,
+      "attack": 2,
+      "defense": 5,
+      "text": [
+        "Evolve 3: Evolve this follower.",
+        "Fanfare Earth Rite: Put 2 Guardform Golem tokens into your EX area."
+      ]
+    },
+    {
+      "index": 55,
+      "set": "BP01",
+      "cardNumber": 55,
+      "name": "Ancient Alchemist",
+      "class": "Runecraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Alchemist"],
+      "rarity": "G",
+      "attack": 3,
+      "defense": 6,
+      "text": [
+        "While this card is on your field, your Golem followers cost 1 less to play.",
+        "Whenever a Golem follower is put onto your field, select an enemy leader or enemy follower on the field and deal it 3 damage."
+      ]
+    },
+    {
+      "index": 76,
+      "set": "BP01",
+      "cardNumber": 76,
+      "name": "Dark Dragoon Forte",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "trait": ["Dragonheart"],
+      "rarity": "L",
+      "cost": 4,
+      "attack": 5,
+      "defense": 1,
+      "text": [
+        "Evolve 2: Evolve this follower.",
+        "Storm."
+      ]
+    },
+    {
+      "index": 77,
+      "set": "BP01",
+      "cardNumber": 77,
+      "name": "Dark Dragoon Forte",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Dragonheart"],
+      "rarity": "L",
+      "attack": 7,
+      "defense": 3,
+      "text": [
+        "Storm. Aura."
+      ]
+    },
+    {
+      "index": 78,
+      "set": "BP01",
+      "cardNumber": 78,
+      "name": "Zirnitra",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "trait": ["Dragonewt"],
+      "rarity": "L",
+      "cost": 3,
+      "attack": 3,
+      "defense": 2,
+      "text": [
+        "Fanfare: Put a Dragon token into your EX area.",
+        "Action 2, Engage: Select a Dragon token in your EX area. Put it onto your field and give it Rush. If Overflow is active for you, recover 2 play points."
+      ]
+    },
+    {
+      "index": 81,
+      "set": "BP01",
+      "cardNumber": 81,
+      "name": "Shapeshifting Mage",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "trait": ["Dragonewt"],
+      "rarity": "G",
+      "cost": 2,
+      "attack": 2,
+      "defense": 2,
+      "text": [
+        "Evolve 1: Evolve this follower.",
+        "Fanfare: If Overflow is active for you, give this follower +3/+3."
+      ]
+    },
+    {
+      "index": 82,
+      "set": "BP01",
+      "cardNumber": 82,
+      "name": "Shapeshifting Mage",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Dragonewt"],
+      "rarity": "G",
+      "attack": 2,
+      "defense": 2,
+      "text": [
+        "Assail. Bane."
+      ]
+    },
+    {
+      "index": 101,
+      "set": "BP01",
+      "cardNumber": 101,
+      "name": "Cerberus",
+      "class": "Abysscraft",
+      "type": "Follower",
+      "trait": ["Demon"],
+      "rarity": "L",
+      "cost": 4,
+      "attack": 3,
+      "defense": 3,
+      "text": [
+        "Evolve 2: Evolve this follower.",
+        "Fanfare: Put a Mimi or Coco token into your EX area.",
+        "Necrocharge (10): Put both into your EX area instead."
+      ]
+    },
+    {
+      "index": 102,
+      "set": "BP01",
+      "cardNumber": 102,
+      "name": "Cerberus",
+      "class": "Abysscraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Demon"],
+      "rarity": "L",
+      "attack": 5,
+      "defense": 5,
+      "text": [
+        "On Evolve: Put a Mimi and Coco token into your EX area."
+      ]
+    },
+    {
+      "index": 103,
+      "set": "BP01",
+      "cardNumber": 103,
+      "name": "Lord Atomy",
+      "class": "Abysscraft",
+      "type": "Follower",
+      "trait": ["Departed"],
+      "rarity": "L",
+      "cost": 9,
+      "attack": 6,
+      "defense": 6,
+      "text": [
+        "When playing this card, put 4 reserved Abysscraft cards from your field into your cemetery, or banish 4 Abysscraft cards in your EX area: This card costs 9 less to play."
+      ]
+    },
+    {
+      "index": 126,
+      "set": "BP01",
+      "cardNumber": 126,
+      "name": "Moon Al-mi'raj",
+      "class": "Havencraft",
+      "type": "Follower",
+      "trait": ["Beast"],
+      "rarity": "L",
+      "cost": 5,
+      "attack": 4,
+      "defense": 5,
+      "text": [
+        "Storm.",
+        "Follower Strike: Give this follower +2 Attack.",
+        "At the start of your end phase, give this follower +2 Defense."
+      ]
+    },
+    {
+      "index": 127,
+      "set": "BP01",
+      "cardNumber": 127,
+      "name": "Jeanne d'Arc",
+      "class": "Havencraft",
+      "type": "Follower",
+      "trait": ["Luminary"],
+      "rarity": "L",
+      "cost": 4,
+      "attack": 3,
+      "defense": 4,
+      "text": [
+        "Evolve 2: Evolve this follower.",
+        "Fanfare: Deal 2 damage to each enemy follower on the field."
+      ]
+    },
+    {
+      "index": 128,
+      "set": "BP01",
+      "cardNumber": 128,
+      "name": "Jeanne d'Arc",
+      "class": "Havencraft",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Luminary"],
+      "rarity": "L",
+      "attack": 4,
+      "defense": 5,
+      "text": [
+        "On Evolve: Deal 2 damage to each enemy follower on the field. Give each other follower on your field +2 Defense."
+      ]
+    },
+    {
+      "index": 151,
+      "set": "BP01",
+      "cardNumber": 151,
+      "name": "Gabriel",
+      "class": "Neutral",
+      "type": "Follower",
+      "trait": ["Angel"],
+      "rarity": "L",
+      "cost": 6,
+      "attack": 4,
+      "defense": 3,
+      "text": [
+        "Ward.",
+        "Fanfare: Select another follower on your field. Give it +4/+3 and Assail."
+      ]
+    },
+    {
+      "index": 152,
+      "set": "BP01",
+      "cardNumber": 152,
+      "name": "Lucifer",
+      "class": "Neutral",
+      "type": "Follower",
+      "trait": ["Angel", "Fallen Angel"],
+      "rarity": "L",
+      "cost": 7,
+      "attack": 6,
+      "defense": 7,
+      "text": [
+        "Evolve 0: Evolve this follower.",
+        "Ward.",
+        "At the start of your end phase, give your leader +4 Defense."
+      ]
+    },
+    {
+      "index": 153,
+      "set": "BP01",
+      "cardNumber": 153,
+      "name": "Lucifer",
+      "class": "Neutral",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Angel", "Fallen Angel"],
+      "rarity": "L",
+      "attack": 8,
+      "defense": 7,
+      "text": [
+        "Bane.",
+        "Ward.",
+        "At the start of your end phase, deal 4 damage to each enemy leader."
+      ]
+    },
+    {
+      "index": 154,
+      "set": "BP01",
+      "cardNumber": 154,
+      "name": "Flame and Glass",
+      "class": "Neutral",
+      "type": "Follower",
+      "trait": ["Archfiend"],
+      "rarity": "L",
+      "cost": 10,
+      "attack": 7,
+      "defense": 7,
+      "text": [
+        "Storm.",
+        "Strike: Deal 3 damage to each enemy follower on the field. If there is a Harnessed Flame and Harnessed Glass in your cemetery, deal 7 damage instead."
+      ]
+    },
+    {
+      "index": 155,
+      "set": "BP01",
+      "cardNumber": 155,
+      "name": "Urd",
+      "class": "Neutral",
+      "type": "Follower",
+      "trait": ["Deity"],
+      "rarity": "G",
+      "cost": 4,
+      "attack": 2,
+      "defense": 2,
+      "text": [
+        "Evolve 1: Evolve this follower.",
+        "Fanfre: Select an enemy follower on the field and put it into its owner's EX area. (Evolved followers put into the EX area are removed from the game.)"
+      ]
+    },
+    {
+      "index": 156,
+      "set": "BP01",
+      "cardNumber": 156,
+      "name": "Urd",
+      "class": "Neutral",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Deity"],
+      "rarity": "G",
+      "attack": 3,
+      "defense": 3,
+      "text": [
+        "On Evolve: Select a card in an opponent's EX area and banish it."
+      ]
+    },
+    {
+      "index": 159,
+      "set": "BP01",
+      "cardNumber": 159,
+      "name": "Bellringer Angel",
+      "class": "Neutral",
+      "type": "Follower",
+      "trait": ["Angel"],
+      "rarity": "G",
+      "cost": 1,
+      "attack": 0,
+      "defense": 2,
+      "text": [
+        "Evolve 2: Evolve this follower.",
+        "Ward.",
+        "Last Breath: Draw a card."
+      ]
+    },
+    {
+      "index": 160,
+      "set": "BP01",
+      "cardNumber": 160,
+      "name": "Bellringer Angel",
+      "class": "Neutral",
+      "type": "Follower",
+      "evolved": true,
+      "trait": ["Angel"],
+      "rarity": "G",
+      "attack": 0,
+      "defense": 2,
+      "text": [
+        "Ward.",
+        "On Evolve: Select an enemy follower on the field and deal it 2 damage.",
+        "Last Breath: Draw a card."
+      ]
+    },
+    {
+      "index": 162,
+      "set": "BP01",
+      "cardNumber": 162,
+      "name": "Path to Purgatory",
+      "class": "Neutral",
+      "type": "Amulet",
+      "trait": ["Archfiend"],
+      "rarity": "G",
+      "cost": 3,
+      "text": [
+        "Fanfare: Draw 3 cards. Deal 3 damage to your leader.",
+        "At the start of your end phase, if your leader's Defense is 6 or less, Engage, put this card into your cemetery: Deal 6 damage to each enemy follower on the field."
+      ]
+    },
+    {
+      "index": 168,
+      "set": "BP01",
+      "cardNumber": 168,
+      "name": "Demonic Strike",
+      "class": "Neutral",
+      "type": "Spell",
+      "trait": ["Fiend"],
+      "rarity": "S",
+      "cost": 3,
+      "text": [
+        "Select an enemy leader or enemy follower on the field and deal it 3 damage."
+      ]
+    },
+    {
+      "index": 169,
+      "set": "BP01",
+      "cardNumber": 169,
+      "name": "Execution",
+      "class": "Neutral",
+      "type": "Spell",
+      "trait": ["Fiend"],
+      "rarity": "S",
+      "cost": 4,
+      "text": [
+        "Quick.",
+        "Select an enemy card on the field and destroy it."
+      ]
+    },
+    {
+      "index": 170,
+      "set": "BP01",
+      "cardNumber": 170,
+      "name": "Trail of Light",
+      "class": "Neutral",
+      "type": "Spell",
+      "trait": ["Lightborne"],
+      "rarity": "S",
+      "cost": 2,
+      "text": [
+        "When this is card is discarded, draw a card.",
+        "Draw a card."
+      ]
+    }
+  ]
+}
