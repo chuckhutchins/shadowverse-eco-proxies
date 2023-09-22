@@ -1,47 +1,84 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue';
-import TheWelcome from './components/TheWelcome.vue';
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="container">
+    <TheHeader />
+    <main>
+      <CardSearch />
+      <CardList />
+    </main>
+    <TheFooter />
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<script>
+import { mapActions } from 'pinia';
+import { useCardStore } from '@/stores/CardStore';
+import CardList from '@/components/CardList.vue';
+import CardSearch from '@/components/CardSearch.vue';
+import TheFooter from '@/components/TheFooter.vue';
+import TheHeader from '@/components/TheHeader.vue';
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+export default {
+  name: 'App',
+  components: {
+    CardList,
+    CardSearch,
+    TheFooter,
+    TheHeader,
+  },
+  created() {
+    this.getCardList();
+    this.getLocalData();
+  },
+  methods: {
+    ...mapActions(useCardStore, ['getCardList', 'getLocalData']),
+  },
+};
+</script>
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+<style scoped lang="scss">
+.container {
+  inline-size: calc(100% - 2rem);
+  max-inline-size: 816px; // 816px is 8.5in
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: start;
+  grid-gap: 2rem;
+  min-height: 100dvh;
+
+  @media print {
+    display: block;
+    padding: 0;
+    min-height: 0;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  main {
+    display: grid;
+    justify-items: center;
+    gap: 2rem;
+
+    > * {
+      min-inline-size: 0;
+    }
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+  .search {
+    inline-size: 100%;
+    max-inline-size: 20rem;
+  }
+
+  .card-list {
+    justify-self: center;
+  }
+}
+
+@media print {
+  .header,
+  .footer,
+  .search {
+    display: none;
   }
 }
 </style>
