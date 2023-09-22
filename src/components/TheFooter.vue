@@ -15,19 +15,7 @@ export default {
 .footer {
   display: grid;
   gap: 0.5rem;
-  border-top: 2px solid;
-  padding-top: 1rem;
-
-  .nav {
-    display: flex;
-    gap: 2rem;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    @media (min-width: 768px) {
-      flex-direction: row;
-    }
-  }
+  border-block-start: 2px solid;
+  padding-block-start: 1rem;
 }
 </style>
