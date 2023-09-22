@@ -1,5 +1,9 @@
 <template>
   <div class="card">
+    <button class="btn-remove" @click="removeCard(card.id)">
+      <IconClose />
+      <span class="sr-only">Remove card</span>
+    </button>
     <div class="header">
       <div v-if="hasCost || isEvolved" class="cost">
         <template v-if="hasCost">{{ card.cost }}</template>
@@ -30,6 +34,10 @@
 </template>
 
 <script>
+import { mapActions } from 'pinia';
+import { useCardStore } from '@/stores/CardStore';
+import IconClose from '@/components/icons/IconClose.vue';
+
 export default {
   name: 'CardItem',
   props: {
@@ -40,6 +48,9 @@ export default {
       required: true,
       type: Object,
     }
+  },
+  components: {
+    IconClose,
   },
   data: () => ({
     tempCost: '13',
@@ -66,21 +77,58 @@ export default {
       return this.card.defense !== undefined;
     },
   },
+  methods: {
+    ...mapActions(useCardStore, ['removeCard']),
+  }
 };
 </script>
 
 <style scoped lang="scss">
 .card {
+  position: relative;
   display: grid;
   grid-template-rows: max-content 1fr max-content;
   gap: 0.5rem;
   aspect-ratio: 240 / 335;
-  width: 15rem;
+  inline-size: 15rem;
   border: 1px solid var(--color-black);
   padding: 0.5rem;
+  background-color: var(--color-white);
 
   > * {
-    min-width: 0;
+    min-inline-size: 0;
+  }
+}
+
+.btn-remove {
+  position: absolute;
+  z-index: 1;
+  inset-block-start: 0.5rem;
+  inset-inline-end: 0.5rem;
+  background-color: var(--color-destructive);
+  color: var(--color-white);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  border: none;
+  padding: 0.25rem;
+  transition: 0.2s;
+  aspect-ratio: 1;
+  cursor: pointer;
+  line-height: 0;
+
+  svg {
+    aspect-ratio: 1;
+    inline-size: 1rem;
+    transition: .2s;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-destructive-hover);
+
+    svg {
+      transform: rotate(90deg);
+    }
   }
 }
 
@@ -130,7 +178,7 @@ export default {
   padding: 0 0.25rem;
   background-color: var(--color-black);
   box-shadow: inset 0 0 0 1px var(--color-black);
-  border-radius: 0.125rem;
+  border-radius: 0.25rem;
 }
 
 .content {
@@ -145,7 +193,7 @@ export default {
     display: grid;
     gap: 0.5rem;
     list-style: none;
-    padding-left: 0;
+    padding-inline-start: 0;
   }
 }
 
@@ -168,6 +216,12 @@ export default {
     &.type {
       font-weight: 700;
     }
+  }
+}
+
+@media print {
+  .btn-remove {
+    display: none;
   }
 }
 </style>
