@@ -1,12 +1,13 @@
 <template>
-  <div v-if="hasCardList" class="card-list">
+  <div v-if="hasCards" class="card-list">
     <CardItem
-      v-for="(item, index) in cardList"
-      :key="`${index}-${item.id}`"
+      v-for="(item, index) in selectedCards"
+      :key="`${item.id}-${index}`"
       :card="item"
     />
   </div>
   <div v-else>
+    <h1>Go ahead and add some cards!</h1>
     <p>No cards available.</p>
   </div>
 </template>
@@ -22,9 +23,9 @@ export default {
     CardItem,
   },
   computed: {
-    ...mapState(useCardStore, ['cardList']),
-    hasCardList() {
-      return this.cardList.length > 0;
+    ...mapState(useCardStore, ['selectedCards']),
+    hasCards() {
+      return this.selectedCards.length > 0;
     },
   },
 };
@@ -32,7 +33,11 @@ export default {
 
 <style scoped lang="scss">
 .card-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 15rem);
+
+  > * {
+    min-inline-size: 0;
+  }
 }
 </style>
