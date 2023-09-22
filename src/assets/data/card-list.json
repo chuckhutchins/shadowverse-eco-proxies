@@ -1,7 +1,7 @@
 {
   "cards": [
     {
-      "index": 1,
+      "id": 10010001,
       "set": "BP01",
       "cardNumber": 1,
       "name": "Rose Queen",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "index": 2,
+      "id": 10010002,
       "set": "BP01",
       "cardNumber": 2,
       "name": "Ancient Elf",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "index": 3,
+      "id": 10010003,
       "set": "BP01",
       "cardNumber": 3,
       "name": "Ancient Elf",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "index": 4,
+      "id": 10010004,
       "set": "BP01",
       "cardNumber": 4,
       "name": "Rhinoceroach",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "index": 5,
+      "id": 10010005,
       "set": "BP01",
       "cardNumber": 5,
       "name": "Rhinoceroach",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "index": 8,
+      "id": 10010008,
       "set": "BP01",
       "cardNumber": 8,
       "name": "Homecoming",
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "index": 26,
+      "id": 10010026,
       "set": "BP01",
       "cardNumber": 26,
       "name": "Sea Queen Otohime",
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "index": 27,
+      "id": 10010027,
       "set": "BP01",
       "cardNumber": 27,
       "name": "Sea Queen Otohime",
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "index": 28,
+      "id": 10010028,
       "set": "BP01",
       "cardNumber": 28,
       "name": "Aurelia, Regal Saber",
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "index": 29,
+      "id": 10010029,
       "set": "BP01",
       "cardNumber": 29,
       "name": "Shadowed Assassin",
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "index": 30,
+      "id": 10010030,
       "set": "BP01",
       "cardNumber": 30,
       "name": "Shadowed Assassin",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "index": 33,
+      "id": 10010033,
       "set": "BP01",
       "cardNumber": 33,
       "name": "Royal Banner",
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "index": 34,
+      "id": 10010034,
       "set": "BP01",
       "cardNumber": 34,
       "name": "Maid Leader",
@@ -215,7 +215,7 @@
       ]
     },
     {
-      "index": 35,
+      "id": 10010035,
       "set": "BP01",
       "cardNumber": 35,
       "name": "Maid Leader",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "index": 36,
+      "id": 10010036,
       "set": "BP01",
       "cardNumber": 36,
       "name": "Gemstaff Commander",
@@ -247,7 +247,7 @@
       ]
     },
     {
-      "index": 41,
+      "id": 10010041,
       "set": "BP01",
       "cardNumber": 41,
       "name": "Arthurian Light",
@@ -263,7 +263,7 @@
       ]
     },
     {
-      "index": 51,
+      "id": 10010051,
       "set": "BP01",
       "cardNumber": 51,
       "name": "Arch Summoner Erasmus",
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "index": 52,
+      "id": 10010052,
       "set": "BP01",
       "cardNumber": 52,
       "name": "Merlin",
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "index": 53,
+      "id": 10010053,
       "set": "BP01",
       "cardNumber": 53,
       "name": "Merlin",
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "index": 54,
+      "id": 10010054,
       "set": "BP01",
       "cardNumber": 54,
       "name": "Ancient Alchemist",
@@ -330,7 +330,7 @@
       ]
     },
     {
-      "index": 55,
+      "id": 10010055,
       "set": "BP01",
       "cardNumber": 55,
       "name": "Ancient Alchemist",
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "index": 76,
+      "id": 10010076,
       "set": "BP01",
       "cardNumber": 76,
       "name": "Dark Dragoon Forte",
@@ -364,7 +364,7 @@
       ]
     },
     {
-      "index": 77,
+      "id": 10010077,
       "set": "BP01",
       "cardNumber": 77,
       "name": "Dark Dragoon Forte",
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "index": 78,
+      "id": 10010078,
       "set": "BP01",
       "cardNumber": 78,
       "name": "Zirnitra",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "index": 81,
+      "id": 10010081,
       "set": "BP01",
       "cardNumber": 81,
       "name": "Shapeshifting Mage",
@@ -414,7 +414,7 @@
       ]
     },
     {
-      "index": 82,
+      "id": 10010082,
       "set": "BP01",
       "cardNumber": 82,
       "name": "Shapeshifting Mage",
@@ -430,7 +430,7 @@
       ]
     },
     {
-      "index": 101,
+      "id": 10010101,
       "set": "BP01",
       "cardNumber": 101,
       "name": "Cerberus",
@@ -448,7 +448,7 @@
       ]
     },
     {
-      "index": 102,
+      "id": 10010102,
       "set": "BP01",
       "cardNumber": 102,
       "name": "Cerberus",
@@ -464,7 +464,7 @@
       ]
     },
     {
-      "index": 103,
+      "id": 10010103,
       "set": "BP01",
       "cardNumber": 103,
       "name": "Lord Atomy",
@@ -480,7 +480,7 @@
       ]
     },
     {
-      "index": 126,
+      "id": 10010126,
       "set": "BP01",
       "cardNumber": 126,
       "name": "Moon Al-mi'raj",
@@ -498,7 +498,7 @@
       ]
     },
     {
-      "index": 127,
+      "id": 10010127,
       "set": "BP01",
       "cardNumber": 127,
       "name": "Jeanne d'Arc",
@@ -515,7 +515,7 @@
       ]
     },
     {
-      "index": 128,
+      "id": 10010128,
       "set": "BP01",
       "cardNumber": 128,
       "name": "Jeanne d'Arc",
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "index": 151,
+      "id": 10010151,
       "set": "BP01",
       "cardNumber": 151,
       "name": "Gabriel",
@@ -548,7 +548,7 @@
       ]
     },
     {
-      "index": 152,
+      "id": 10010152,
       "set": "BP01",
       "cardNumber": 152,
       "name": "Lucifer",
@@ -566,7 +566,7 @@
       ]
     },
     {
-      "index": 153,
+      "id": 10010153,
       "set": "BP01",
       "cardNumber": 153,
       "name": "Lucifer",
@@ -584,7 +584,7 @@
       ]
     },
     {
-      "index": 154,
+      "id": 10010154,
       "set": "BP01",
       "cardNumber": 154,
       "name": "Flame and Glass",
@@ -601,7 +601,7 @@
       ]
     },
     {
-      "index": 155,
+      "id": 10010155,
       "set": "BP01",
       "cardNumber": 155,
       "name": "Urd",
@@ -618,7 +618,7 @@
       ]
     },
     {
-      "index": 156,
+      "id": 10010156,
       "set": "BP01",
       "cardNumber": 156,
       "name": "Urd",
@@ -634,7 +634,7 @@
       ]
     },
     {
-      "index": 159,
+      "id": 10010159,
       "set": "BP01",
       "cardNumber": 159,
       "name": "Bellringer Angel",
@@ -652,7 +652,7 @@
       ]
     },
     {
-      "index": 160,
+      "id": 10010160,
       "set": "BP01",
       "cardNumber": 160,
       "name": "Bellringer Angel",
@@ -670,7 +670,7 @@
       ]
     },
     {
-      "index": 162,
+      "id": 10010162,
       "set": "BP01",
       "cardNumber": 162,
       "name": "Path to Purgatory",
@@ -685,7 +685,7 @@
       ]
     },
     {
-      "index": 168,
+      "id": 10010168,
       "set": "BP01",
       "cardNumber": 168,
       "name": "Demonic Strike",
@@ -699,7 +699,7 @@
       ]
     },
     {
-      "index": 169,
+      "id": 10010169,
       "set": "BP01",
       "cardNumber": 169,
       "name": "Execution",
@@ -714,7 +714,7 @@
       ]
     },
     {
-      "index": 170,
+      "id": 10010170,
       "set": "BP01",
       "cardNumber": 170,
       "name": "Trail of Light",
@@ -729,7 +729,7 @@
       ]
     },
     {
-      "index": 1001,
+      "id": 10011001,
       "set": "BP01",
       "cardNumber": 1,
       "name": "Thorn Burst",
@@ -743,7 +743,7 @@
       ]
     },
     {
-      "index": 1002,
+      "id": 10011002,
       "set": "BP01",
       "cardNumber": 2,
       "name": "Fairy Wisp",
@@ -757,7 +757,7 @@
       "text": []
     },
     {
-      "index": 1003,
+      "id": 10011003,
       "set": "BP01",
       "cardNumber": 3,
       "name": "Fairy",
@@ -771,7 +771,7 @@
       "text": []
     },
     {
-      "index": 1004,
+      "id": 10011004,
       "set": "BP01",
       "cardNumber": 4,
       "name": "Otohime's Bodyguard",
@@ -787,7 +787,7 @@
       ]
     },
     {
-      "index": 1005,
+      "id": 10011005,
       "set": "BP01",
       "cardNumber": 5,
       "name": "Knight",
@@ -801,7 +801,7 @@
       "text": []
     },
     {
-      "index": 1006,
+      "id": 10011006,
       "set": "BP01",
       "cardNumber": 6,
       "name": "Viking",
@@ -817,7 +817,7 @@
       ]
     },
     {
-      "index": 1007,
+      "id": 10011007,
       "set": "BP01",
       "cardNumber": 7,
       "name": "Steelclad Knight",
@@ -831,7 +831,7 @@
       "text": []
     },
     {
-      "index": 1008,
+      "id": 10011008,
       "set": "BP01",
       "cardNumber": 8,
       "name": "Strikeform Golem",
@@ -847,7 +847,7 @@
       ]
     },
     {
-      "index": 1009,
+      "id": 10011009,
       "set": "BP01",
       "cardNumber": 9,
       "name": "Guardform Golem",
@@ -863,7 +863,7 @@
       ]
     },
     {
-      "index": 1010,
+      "id": 10011010,
       "set": "BP01",
       "cardNumber": 10,
       "name": "Magic Sediment",
@@ -877,7 +877,7 @@
       ]
     },
     {
-      "index": 1011,
+      "id": 10011011,
       "set": "BP01",
       "cardNumber": 11,
       "name": "Dragon",
@@ -891,7 +891,7 @@
       "text": []
     },
     {
-      "index": 1012,
+      "id": 10011012,
       "set": "BP01",
       "cardNumber": 12,
       "name": "Mimi",
@@ -905,7 +905,7 @@
       ]
     },
     {
-      "index": 1013,
+      "id": 10011013,
       "set": "BP01",
       "cardNumber": 13,
       "name": "Coco",
@@ -919,7 +919,7 @@
       ]
     },
     {
-      "index": 1014,
+      "id": 10011014,
       "set": "BP01",
       "cardNumber": 14,
       "name": "Ghost",
@@ -936,7 +936,7 @@
       ]
     },
     {
-      "index": 1015,
+      "id": 10011015,
       "set": "BP01",
       "cardNumber": 15,
       "name": "Bat",
@@ -950,7 +950,7 @@
       "text": []
     },
     {
-      "index": 1016,
+      "id": 10011016,
       "set": "BP01",
       "cardNumber": 16,
       "name": "Holy Falcon",
@@ -966,7 +966,7 @@
       ]
     },
     {
-      "index": 1017,
+      "id": 10011017,
       "set": "BP01",
       "cardNumber": 17,
       "name": "Holy Tiger",
@@ -982,7 +982,7 @@
       ]
     },
     {
-      "index": 30001,
+      "id": 20030001,
       "set": "SD03",
       "cardNumber": 1,
       "name": "Mythril Golem",
@@ -998,7 +998,7 @@
       ]
     },
     {
-      "index": 30007,
+      "id": 20030007,
       "set": "SD03",
       "cardNumber": 7,
       "name": "Lightning Shooter",
@@ -1014,7 +1014,7 @@
       ]
     },
     {
-      "index": 60001,
+      "id": 20060001,
       "set": "SD06",
       "cardNumber": 1,
       "name": "Skullfane",
