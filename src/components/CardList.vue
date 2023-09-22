@@ -1,8 +1,8 @@
 <template>
   <div v-if="hasCardList" class="card-list">
     <CardItem
-      v-for="item in cardList"
-      :key="item.id"
+      v-for="(item, index) in cardList"
+      :key="`${index}-${item.id}`"
       :card="item"
     />
   </div>
