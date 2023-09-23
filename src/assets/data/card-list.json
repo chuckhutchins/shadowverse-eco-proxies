@@ -117,6 +117,23 @@
       ]
     },
     {
+      "id": 10010012,
+      "set": "BP01",
+      "cardNumber": 12,
+      "name": "Elf Child May",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "trait": ["Elf"],
+      "rarity": "S",
+      "cost": 1,
+      "attack": 1,
+      "defense": 1,
+      "text": [
+        "Fanfare: Select an enemy follower on the field and deal it 1 damage.",
+        "When this card is returned to hand from your field, select an enemy follower on the field and deal it 1 damage."
+      ]
+    },
+    {
       "id": 10010014,
       "set": "BP01",
       "cardNumber": 14,
