@@ -101,6 +101,54 @@
       ]
     },
     {
+      "id": 10010009,
+      "set": "BP01",
+      "cardNumber": 9,
+      "name": "Elven Princess Mage",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "trait": ["Elf", "Princess"],
+      "rarity": "S",
+      "cost": 3,
+      "attack": 3,
+      "defense": 3,
+      "text": [
+        "Evolve 1: Evolve this follower."
+      ]
+    },
+    {
+      "id": 10010014,
+      "set": "BP01",
+      "cardNumber": 14,
+      "name": "Noble Fairy",
+      "class": "Forestcraft",
+      "type": "Follower",
+      "trait": ["Pixie", "Princess"],
+      "rarity": "S",
+      "cost": 3,
+      "attack": 3,
+      "defense": 3,
+      "text": [
+        "Ward.",
+        "Fanfare Combo (3): Select an enemy follower on the field. Destroy it and summon a Fairy token on that follower's field."
+      ]
+    },
+    {
+      "id": 10010016,
+      "set": "BP01",
+      "cardNumber": 16,
+      "name": "Harvest Festival",
+      "class": "Forestcraft",
+      "type": "Amulet",
+      "trait": ["Elf"],
+      "rarity": "S",
+      "cost": 1,
+      "text": [
+        "Action 1, Engage, put this card into your cemetery: Give your leader +1 Defense.",
+        "When this card leaves your field, draw a card."
+      ]
+    },
+    {
       "id": 10010026,
       "set": "BP01",
       "cardNumber": 26,
@@ -247,6 +295,23 @@
       ]
     },
     {
+      "id": 10010038,
+      "set": "BP01",
+      "cardNumber": 38,
+      "name": "Swordsman",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Officer"],
+      "rarity": "S",
+      "cost": 1,
+      "attack": 2,
+      "defense": 1,
+      "text": [
+        "Fanfare: Select an enemy follower on the field and engage it.",
+        "Action Engage: Select an enemy follower on the field and engage it."
+      ]
+    },
+    {
       "id": 10010041,
       "set": "BP01",
       "cardNumber": 41,
@@ -260,6 +325,22 @@
         "Action 1, Engage: Summon a Knight token and give it Storm.",
         "Action 2, Engage: Select an enemy follower on the field and engage it.",
         "Action 3, Engage: Draw a card."
+      ]
+    },
+    {
+      "id": 10010048,
+      "set": "BP01",
+      "cardNumber": 48,
+      "name": "Novice Trooper",
+      "class": "Swordcraft",
+      "type": "Follower",
+      "trait": ["Officer"],
+      "rarity": "B",
+      "cost": 3,
+      "attack": 3,
+      "defense": 3,
+      "text": [
+        "Storm."
       ]
     },
     {
@@ -347,6 +428,21 @@
       ]
     },
     {
+      "id": 10010065,
+      "set": "BP01",
+      "cardNumber": 65,
+      "name": "Fate's Hand",
+      "class": "Runecraft",
+      "type": "Spell",
+      "trait": ["Mage"],
+      "rarity": "S",
+      "cost": 3,
+      "text": [
+        "Quick.",
+        "Draw 2 cards. Spellchain (10): Recover 1 play point."
+      ]
+    },
+    {
       "id": 10010076,
       "set": "BP01",
       "cardNumber": 76,
@@ -397,6 +493,23 @@
       ]
     },
     {
+      "id": 10010079,
+      "set": "BP01",
+      "cardNumber": 79,
+      "name": "Aiela, Dragon Knight",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "trait": ["Dragonheart"],
+      "rarity": "G",
+      "cost": 3,
+      "attack": 3,
+      "defense": 2,
+      "text": [
+        "Assail.",
+        "Last Words: Increase your maximum play points by 1."
+      ]
+    },
+    {
       "id": 10010081,
       "set": "BP01",
       "cardNumber": 81,
@@ -427,6 +540,40 @@
       "defense": 2,
       "text": [
         "Assail. Bane."
+      ]
+    },
+    {
+      "id": 10010084,
+      "set": "BP01",
+      "cardNumber": 84,
+      "name": "Wyvern Cavalier",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "trait": ["Dragonheart"],
+      "rarity": "S",
+      "cost": 5,
+      "attack": 5,
+      "defense": 5,
+      "text": [
+        "Fanfare: Put the top card of your deck into your EX area. It costs 2 less to play."
+      ]
+    },
+    {
+      "id": 10010086,
+      "set": "BP01",
+      "cardNumber": 86,
+      "name": "Shenlong",
+      "class": "Dragoncraft",
+      "type": "Follower",
+      "trait": ["Wyrmkin"],
+      "rarity": "S",
+      "cost": 5,
+      "attack": 4,
+      "defense": 5,
+      "text": [
+        "Evolve 2: Evolve this follower.",
+        "Ward.",
+        "Fanfare: Draw 2 cards, then discard a card."
       ]
     },
     {
@@ -726,6 +873,36 @@
       "text": [
         "When this is card is discarded, draw a card.",
         "Draw a card."
+      ]
+    },
+    {
+      "id": 10010179,
+      "set": "BP01",
+      "cardNumber": 179,
+      "name": "Angelic Snipe",
+      "class": "Neutral",
+      "type": "Spell",
+      "trait": ["Angel"],
+      "rarity": "B",
+      "cost": 1,
+      "text": [
+        "Quick.",
+        "Select an enemy follower on the field and deal it 2 damage."
+      ]
+    },
+    {
+      "id": 10010180,
+      "set": "BP01",
+      "cardNumber": 180,
+      "name": "Angelic Barrage",
+      "class": "Neutral",
+      "type": "Spell",
+      "trait": ["Angel"],
+      "rarity": "B",
+      "cost": 1,
+      "text": [
+        "Quick.",
+        "Deal 1 damage to each enemy follower on the field."
       ]
     },
     {
