@@ -62,6 +62,10 @@ export default {
     > * {
       min-inline-size: 0;
     }
+
+    @media print {
+      display: block;
+    }
   }
 
   .search {
