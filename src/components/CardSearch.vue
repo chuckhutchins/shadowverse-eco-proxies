@@ -10,6 +10,7 @@
           type="text"
         >
         <button
+          v-if="hasSearchInput"
           class="btn-clear"
           type="button"
           @click="clear"
@@ -61,6 +62,9 @@ export default {
     },
     hasResults() {
       return this.results.length > 0;
+    },
+    hasSearchInput() {
+      return this.search.length > 0;
     },
   },
   methods: {
