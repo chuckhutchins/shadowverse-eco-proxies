@@ -62,6 +62,10 @@ export default {
     justify-content: space-between;
     gap: 1rem;
     margin-bottom: 1rem;
+
+    @media print {
+      display: none;
+    }
   }
 }
 </style>
