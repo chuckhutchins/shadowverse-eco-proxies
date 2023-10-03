@@ -9,46 +9,45 @@
           name="search"
           type="text"
         >
-        <button
+        <AppButton
           v-if="hasSearchInput"
           class="btn-clear"
-          type="button"
           @click="clear"
         >
           Clear
-        </button>
+        </AppButton>
       </div>
     </div>
-    <ul v-if="hasResults" class="results">
-      <li
-        v-for="(item, index) in results"
-        :key="`${item.id}-${index}`"
-        class="result-item"
-      >
-        {{ item.name }}<template v-if="item.evolved"> (Evolved)</template>
-        <button
-          class="btn-add"
-          type="button"
-          @click="addCard(item)"
-        >
-          Add
-        </button>
-      </li>
-    </ul>
-<!--    <div class="actions">-->
-<!--      <button @click="removeAllCards" type="button">-->
-<!--        Remove All Cards-->
-<!--      </button>-->
-<!--    </div>-->
+    <Transition name="slide-fade">
+      <ul v-if="hasResults" class="results">
+        <TransitionGroup name="slide-fade">
+          <li
+            v-for="(item, index) in results"
+            :key="`${item.id}-${index}`"
+            class="result-item"
+          >
+            {{ item.name }}<template v-if="item.evolved"> (Evolved)</template>
+            <AppButton @click="addCard(item)">
+              Add
+            </AppButton>
+          </li>
+        </TransitionGroup>
+      </ul>
+    </Transition>
+
   </div>
 </template>
 
 <script>
 import { mapActions, mapState } from 'pinia';
 import { useCardStore } from '@/stores/CardStore';
+import AppButton from '@/components/common/AppButton.vue';
 
 export default {
   name: 'CardSearch',
+  components: {
+    AppButton,
+  },
   data: () => ({
     search: '',
   }),
@@ -68,7 +67,7 @@ export default {
     },
   },
   methods: {
-    ...mapActions(useCardStore, ['addCard', 'removeAllCards']),
+    ...mapActions(useCardStore, ['addCard']),
     clear() {
       this.search = '';
     },
@@ -122,30 +121,6 @@ export default {
       position: absolute;
       inset-block-start: 0.5rem;
       inset-inline-end: 0.5rem;
-      background-color: var(--color-black);
-      border-radius: 0.25rem;
-      border: none;
-      padding: 0.375rem 0.75rem;
-      transition: 0.2s;
-      cursor: pointer;
-      color: var(--color-white);
-      font-size: 1rem;
-      line-height: 1;
-
-      svg {
-        aspect-ratio: 1;
-        inline-size: 1rem;
-        transition: .2s;
-      }
-
-      &:hover,
-      &:focus {
-        background-color: var(--color-dark-gray);
-
-        svg {
-          transform: rotate(90deg);
-        }
-      }
     }
   }
 }
@@ -177,23 +152,6 @@ export default {
     &:focus-within {
       background-color: var(--results-hover);
       box-shadow: 0 0 0 0.125rem var(--text);
-    }
-
-    .btn-add {
-      background-color: var(--color-black);
-      color: var(--color-white);
-      border-radius: 0.25rem;
-      border: none;
-      padding: 0.375rem 0.75rem;
-      transition: 0.2s;
-      cursor: pointer;
-      font-size: 1rem;
-      line-height: 1;
-
-      &:hover,
-      &:focus {
-        background-color: var(--color-dark-gray);
-      }
     }
   }
 }
